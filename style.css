@@ -1,0 +1,229 @@
+html {
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/bg-pattern-top-mobile.svg"),
+    url("images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: var(--White);
+  margin: auto;
+  max-width: max-content;
+}
+
+.halaman-atas {
+  display: flex;
+  max-width: max-content;
+}
+
+h1 {
+  width: 300px;
+  color: var(--Very-Dark-Magenta);
+  max-width: max-content;
+}
+
+p {
+  width: 380px;
+  font-size: 12px;
+  color: var(--Dark-Grayish-Magenta);
+  line-height: 20px;
+  margin-top: -15px;
+  max-width: max-content;
+}
+
+.isi {
+  margin-top: 50px;
+  margin-left: 100px;
+  max-width: max-content;
+}
+
+.main .content {
+  display: flex;
+  width: 800px;
+  max-width: max-content;
+}
+
+.main .content .main-paragraph {
+  margin-top: 15px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta);
+  max-width: max-content;
+}
+
+.main .content .main-paragraph p {
+  color: var(--Very-Dark-Magenta);
+  max-width: max-content;
+}
+
+.main .main-content2 {
+  margin-top: 30px;
+  margin-left: 40px;
+  max-width: max-content;
+}
+
+.main .main-content3 {
+  margin-top: 30px;
+  margin-left: 80px;
+  max-width: max-content;
+}
+
+.halaman-bawah {
+  max-width: max-content;
+}
+
+.halaman-bawah .last-main {
+  display: flex;
+  max-width: max-content;
+}
+
+.last-main-content1 {
+  margin-top: 70px;
+  width: 300px;
+  height: 200px;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  max-width: max-content;
+}
+
+.upper {
+  display: flex;
+  max-width: max-content;
+}
+
+.last-main-content1 .main-picture img {
+  width: 40px;
+  border-radius: 50%;
+  max-width: max-content;
+}
+
+.last-main-content1 .main-name p {
+  color: var(--White);
+  margin-left: 20px;
+  margin-top: 1px;
+  font-weight: bold;
+  max-width: max-content;
+}
+
+.last-main-content1 .main-name .warna {
+  margin-top: -10px;
+  color: var(--Soft-Pink);
+  font-weight: normal;
+  max-width: max-content;
+}
+
+.last-main-content1 .lower p {
+  width: 230px;
+  color: var(--White);
+  font-size: 10px;
+  margin-top: 10px;
+  max-width: max-content;
+}
+
+.last-main-content2 {
+  margin-top: 70px;
+  width: 300px;
+  height: 200px;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-top: 90px;
+  max-width: max-content;
+}
+
+.last-main-content2 .main-picture img {
+  width: 40px;
+  border-radius: 50%;
+  max-width: max-content;
+}
+
+.last-main-content2 .main-name p {
+  color: var(--White);
+  margin-left: 20px;
+  margin-top: 1px;
+  font-weight: bold;
+  max-width: max-content;
+}
+
+.last-main-content2 .main-name .warna {
+  margin-top: -10px;
+  color: var(--Soft-Pink);
+  font-weight: normal;
+  max-width: max-content;
+}
+
+.last-main-content2 .lower p {
+  width: 230px;
+  color: var(--White);
+  font-size: 10px;
+  margin-top: 10px;
+  max-width: max-content;
+}
+
+.last-main-content3 {
+  margin-top: 70px;
+  width: 300px;
+  height: 200px;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-top: 110px;
+  max-width: max-content;
+}
+
+.last-main-content3 .main-picture img {
+  width: 40px;
+  border-radius: 50%;
+  max-width: max-content;
+}
+
+.last-main-content3 .main-name p {
+  color: var(--White);
+  margin-left: 20px;
+  margin-top: 1px;
+  font-weight: bold;
+  max-width: max-content;
+}
+
+.last-main-content3 .main-name .warna {
+  margin-top: -10px;
+  color: var(--Soft-Pink);
+  font-weight: normal;
+  max-width: max-content;
+}
+
+.last-main-content3 .lower p {
+  width: 230px;
+  color: var(--White);
+  font-size: 10px;
+  margin-top: 10px;
+  max-width: max-content;
+}
+
+.attribution {
+  align-items: center;
+  max-width: max-content;
+}
