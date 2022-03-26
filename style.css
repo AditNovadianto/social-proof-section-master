@@ -227,3 +227,75 @@ p {
   align-items: center;
   max-width: max-content;
 }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    margin: 30px auto;
+  }
+
+  p {
+    margin: auto;
+  }
+
+  .isi {
+    margin: 30px auto;
+  }
+
+  .main .content {
+    display: block;
+    margin: auto;
+  }
+
+  .main .content .main-paragraph {
+    text-align: center;
+    margin: 0;
+  }
+
+  .halaman-atas {
+    text-align: center;
+    display: block;
+  }
+
+  .main .main-content2 {
+    margin-top: 30px;
+    margin-left: 0px;
+    max-width: max-content;
+  }
+
+  .main .main-content3 {
+    margin-top: 30px;
+    max-width: max-content;
+  }
+
+  .halaman-bawah .last-main {
+    display: block;
+    transform: translateX(45px);
+  }
+
+  .last-main-content2 {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .last-main-content3 {
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .last-main-content1 .main-name .warna {
+    margin-top: 1px;
+  }
+
+  .last-main-content2 .main-name .warna {
+    margin-top: 1px;
+  }
+
+  .last-main-content3 .main-name .warna {
+    margin-top: 1px;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
